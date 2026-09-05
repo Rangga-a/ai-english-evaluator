@@ -23,25 +23,25 @@ Proyek ini dibuat sebagai tugas akhir kelas berbasis LLM (Large Language Model),
 ```
 app/
   api/
-    export/route.ts      GET, ekspor riwayat evaluasi ke CSV
-    history/route.ts     GET, daftar riwayat evaluasi
-    speaking/route.ts    POST, evaluasi audio (transkripsi + LLM)
-    writing/route.ts     POST, evaluasi teks (LLM)
-  history/page.tsx       Halaman riwayat evaluasi
-  speaking/page.tsx      Halaman evaluasi suara
-  writing/page.tsx       Halaman evaluasi tulisan
-  globals.css            Token warna, font, dan style global
-  layout.tsx             Layout dasar (navbar, font, metadata)
-  page.tsx               Halaman utama
+    export/route.ts      
+    history/route.ts     
+    speaking/route.ts    
+    writing/route.ts     
+  history/page.tsx       
+  speaking/page.tsx      
+  writing/page.tsx       
+  globals.css            
+  layout.tsx             
+  page.tsx               
 
 components/
-  Navbar.tsx              Navigasi atas
+  Navbar.tsx              
 
 lib/
-  groq.ts                 Transkripsi audio lewat Groq Whisper API
-  openrouter.ts           Evaluasi teks lewat LLM OpenRouter
-  rateLimit.ts            Pembatas jumlah request per IP
-  supabaseAdmin.ts        Klien Supabase sisi server (service role)
+  groq.ts                 
+  openrouter.ts           
+  rateLimit.ts            
+  supabaseAdmin.ts        
 ```
 
 ## Alur Kerja
@@ -99,7 +99,7 @@ Buat file `.env.local` di root proyek (tidak ikut ter-commit karena sudah masuk 
 ```
 NEXT_PUBLIC_SUPABASE_URL=
 SUPABASE_SERVICE_ROLE_KEY=
-SUPABASE_STORAGE_BUCKET=audio-evaluations
+SUPABASE_STORAGE_BUCKET=
 
 OPENROUTER_API_KEY=
 OPENROUTER_MODEL=openai/gpt-4o-mini
