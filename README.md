@@ -1,6 +1,6 @@
 # AI English Evaluator
 
-AI English Evaluator adalah aplikasi web yang menilai kemampuan Bahasa Inggris pengguna secara otomatis, lewat tulisan maupun suara. Pengguna menulis esai atau merekam suara berbicara dalam Bahasa Inggris, lalu aplikasi memberikan skor, koreksi grammar, catatan kosakata, dan saran perbaikan — seperti evaluasi yang biasanya diberikan guru atau penguji, tapi instan dan otomatis lewat AI.
+AI English Evaluator adalah aplikasi web yang menilai kemampuan Bahasa Inggris pengguna secara otomatis, lewat tulisan maupun suara. Pengguna menulis esai atau merekam suara berbicara dalam Bahasa Inggris, lalu aplikasi memberikan skor, koreksi grammar, catatan kosakata, dan saran perbaikan - seperti evaluasi yang biasanya diberikan guru atau penguji, tapi instan dan otomatis lewat AI.
 
 Proyek ini dibuat sebagai tugas akhir kelas berbasis LLM (Large Language Model), untuk menunjukkan penerapan LLM dan speech-to-text dalam sebuah aplikasi nyata yang bisa dipakai untuk latihan Bahasa Inggris secara mandiri. Setiap evaluasi yang dilakukan tersimpan otomatis, sehingga pengguna bisa melihat kembali riwayat latihannya dan memantau perkembangan dari waktu ke waktu.
 
